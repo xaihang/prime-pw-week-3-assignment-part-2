@@ -35,7 +35,7 @@ for (let i = 2; i < 11; i += 2) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-for (i = 5; i > 0; i--) {
+for (i = 5; i >= 0; i--) {
   console.log(i);
 }
 
@@ -61,7 +61,7 @@ while (star < stars.length) {
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 let count = 0;
-while (count < 5) {
+while (count < 6) {
   console.log(count);
   count++;
 }
