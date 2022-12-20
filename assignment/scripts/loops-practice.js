@@ -57,7 +57,7 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb'];
 // for of loop:
 for (let star of stars) {
   console.log('Some stars:', star);
-};
+}
 
 
 // 3. While loops
