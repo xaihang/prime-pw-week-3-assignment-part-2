@@ -49,12 +49,12 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb'];
 //for each index within the array(stars)list if the index is less than the length of the list, increment it by 1
 //then console log the result of each star name in the array with text 'Some Stars:'
 
-// if using for loop:
+// for loop:
 // for (i = 0; i < stars.length; i++) {
 //   console.log('Some stars:', stars[i]);
 // }
 
-// //for of loop:
+// for of loop:
 for (let star of stars) {
   console.log('Some stars:', star);
 };
